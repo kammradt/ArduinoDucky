@@ -6,14 +6,14 @@
  - Resultado
 ----------
 **Introdução**
-O inicio 
+<p>O inicio </p>
 
 ----------
 **Desenvolvimento**
-Foi feito
+<p>O processo</p>
 
 ----------
 **Resultado**
-O obtido 
+<p>O obtido</p>
 
 ----------
