@@ -11,9 +11,9 @@
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Por HID - Human Interface Device -, compreende-se como um dispositivo aceito pelo sistema como responsável sendo por entrada de dados, exatamente igual a um teclado USB para computador, por exemplo. O que, finalmente, transformou a ferramente amada por diversos Pentesters, devido a sua facilidade de uso e de aplicação.</p>
 
 <br>
-<center><p>Figura 1 - Rubber Ducky internamente</p></center>
+<p align=center>Figura 1 - Rubber Ducky internamente</p>
 <center><img src="https://cdn.shopify.com/s/files/1/0068/2142/products/4_35611eac-0b76-4cdb-a716-b37665b26bd9.jpg?v=1494296097"></center>
-<center><p>Fonte: HakShop (2018)</p></center>
+<p align=center>Fonte: HakShop (2018)</p>
 <br>
 
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As instruções são escritas previamente e salvas no dispositivo. A linguagem possui sintaxe simples, direta e é chamadas de "Payloads". Segue um exemplo de Script que tem como função abrir o 'notepad' do Windows e escrever: "ArduinoDucky"</p>
