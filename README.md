@@ -1,9 +1,10 @@
 # ArduinoDucky
-
+<center>
 **Sumário**
  - Introdução
  - Desenvolvimento
  - Resultado
+ </center>
 ----------
 **Introdução**
 <p>  O que é um Rubber Ducky? </p>
@@ -12,7 +13,7 @@
 
 <br>
 <p align=center>Figura 1 - Rubber Ducky internamente</p>
-<center><img src="https://cdn.shopify.com/s/files/1/0068/2142/products/4_35611eac-0b76-4cdb-a716-b37665b26bd9.jpg?v=1494296097"></center>
+<div align="center"><img src="https://cdn.shopify.com/s/files/1/0068/2142/products/4_35611eac-0b76-4cdb-a716-b37665b26bd9.jpg?v=1494296097"></div>
 <p align=center>Fonte: HakShop (2018)</p>
 <br>
 
@@ -31,7 +32,7 @@
 
 <br>
 <p align=center>Figura 2 - Arduino Uno (Modelo Popular)</p>
-<center><img src="https://store-cdn.arduino.cc/usa/catalog/product/cache/1/image/520x330/604a3538c15e081937dbfbd20aa60aad/a/0/a000066_featured.jpg"></center>
+<div align="center"> <img src="https://store-cdn.arduino.cc/usa/catalog/product/cache/1/image/520x330/604a3538c15e081937dbfbd20aa60aad/a/0/a000066_featured.jpg"></div>
 <p align=center>Fonte: Arduino CC (2018)</p>
 <br>
 
