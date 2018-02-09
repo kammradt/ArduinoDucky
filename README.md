@@ -4,7 +4,7 @@
  - **Introdução**
  - **Desenvolvimento**
  - **Resultado**
- 
+ <br>
 # Introdução
 <p> <strong> O que é um Rubber Ducky?</strong> </p>
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O projeto foi completamente baseado em um outro pré-existente, originário da equipe de Podcasting Hak5. Rubber Ducky foi o nome dado a ferramenta capaz de emular as funções de um teclado, e assim executando os mais diversos comandos e ações, encaixando-o na categoria de dispositivos HID. </p>
@@ -36,10 +36,10 @@
 <br>
 
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O Arduino é uma plataforma de prototipagem muito famosa. Devido a vasta gama de modelos, diversos sensores, módulos, e baixo custo de acessórios, é a escolha ideal para este caso. </p> 
-
+ <br>
+ 
 # Desenvolvimento
-<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Para que o objetivo de recriar o Rubber Ducky seja alcançado, algumas características principais precisam ser consideradas durante o processo.</p>
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para que o objetivo de recriar o Rubber Ducky seja alcançado, algumas características principais precisam ser consideradas durante o processo.</p>
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <strong>O desejável:</strong>
 
@@ -54,11 +54,15 @@ Para que o objetivo de recriar o Rubber Ducky seja alcançado, algumas caracter�
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tendo em vista tais objetivos, verificando-se aos objetivos primordiais, que seriam, manter intuitivo, barato e de fácil acesso comercial, <strong>foram utilizados:</strong></p>
 
  - 01 Arduino Pro Micro - (ATMEGA32U4);
+ - a
+ - a
+ - a
+ <br>
+ 
 
-----------
 # Resultado
 <p>
-✔
+✔✖,
 </p>
 
 ----------
