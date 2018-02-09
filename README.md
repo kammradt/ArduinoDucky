@@ -1,5 +1,4 @@
-<center><font size="36">ArduinoDucky</font></center>
-
+<div align="center"><h1>ArduinoDucky</h1></div>
 # Sumário
  - **Introdução**
  - **Desenvolvimento**
