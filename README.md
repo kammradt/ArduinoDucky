@@ -1,4 +1,4 @@
-# ArduinoDucky
+<center><font size="36">ArduinoDucky</font></center>
 
 # Sumário
  - **Introdução**
