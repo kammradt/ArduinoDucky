@@ -1,15 +1,13 @@
 
 <div align="center"><h1>ArduinoDucky</h1></div>
-<br>
-<br>
-<br>
+<div align="center"><h1>Sumário</h1></div>
 
-# Sumário
  - **Introdução**
  - **Desenvolvimento**
  - **Resultado**
- <br>
-# Introdução
+
+<div align="center"><h1>Introdução</h1></div>
+
 <p> <strong> O que é um Rubber Ducky?</strong> </p>
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O projeto foi completamente baseado em um outro pré-existente, originário da equipe de Podcasting Hak5. Rubber Ducky foi o nome dado a ferramenta capaz de emular as funções de um teclado, e assim executando os mais diversos comandos e ações, encaixando-o na categoria de dispositivos HID. </p>
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Por HID - Human Interface Device -, compreende-se como um dispositivo aceito pelo sistema como responsável sendo por entrada de dados, exatamente igual a um teclado USB para computador, por exemplo. O que, finalmente, transformou a ferramente amada por diversos Pentesters, devido a sua facilidade de uso e de aplicação.</p>
@@ -42,7 +40,8 @@
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O Arduino é uma plataforma de prototipagem muito famosa. Devido a vasta gama de modelos, diversos sensores, módulos, e baixo custo de acessórios, é a escolha ideal para este caso. </p> 
  <br>
  
-# Desenvolvimento
+<div align="center"><h1>Desenvolvimento</h1></div>
+
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para que o objetivo de recriar o Rubber Ducky seja alcançado, algumas características principais precisam ser consideradas durante o processo.</p>
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <strong>O desejável:</strong>
@@ -64,7 +63,7 @@
  <br>
  
 
-# Resultado
+<div align="center"><h1>Resultado</h1></div>
 <p>
 ✔✖,
 </p>
