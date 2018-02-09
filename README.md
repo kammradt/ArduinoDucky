@@ -1,10 +1,10 @@
 # ArduinoDucky
-<center>
+<div align="center">
 **Sumário**
  - Introdução
  - Desenvolvimento
  - Resultado
- </center>
+ </div>
 ----------
 **Introdução**
 <p>  O que é um Rubber Ducky? </p>
