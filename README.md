@@ -42,7 +42,7 @@
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Para que o objetivo de recriar o Rubber Ducky seja alcançado, algumas características principais precisam ser consideradas durante o processo.</p>
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-__O desejável:__
+<strong>O desejável:</strong>
 
  - Executar comandos via HID; 
  - Fácil/level/discreto para testes;
@@ -52,7 +52,9 @@ __O desejável:__
  - Custo reduzido;
  - Fácil acesso de compra ao dispositivo;
 </p>
-<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tendo em vista tais objetivos, foram utilizados:</p>
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tendo em vista tais objetivos, verificando-se aos objetivos primordiais, que seriam, manter intuitivo, barato e de fácil acesso comercial, <strong>foram utilizados:</strong></p>
+
+ - 01 Arduino Pro Micro - (ATMEGA32U4);
 
 ----------
 **Resultado**
