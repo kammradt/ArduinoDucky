@@ -52,19 +52,61 @@
  - Possuir armazenamento suficiente para  diversos scripts/payloads/arquivos em geral;
  - Linguagem com sintaxe simples;
  - Custo reduzido;
- - Fácil acesso de compra ao dispositivo;
+ - Fácil acesso de compra ao dispositivo.
 </p>
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tendo em vista tais objetivos, verificando-se aos objetivos primordiais, que seriam, manter intuitivo, barato e de fácil acesso comercial, <strong>foram utilizados:</strong></p>
 
  - 01 Arduino Pro Micro - (ATMEGA32U4);
- - a
- - a
- - a
+ - 01 Adaptador USB Male/Female para Micro USB;
+ - 01 OTG - USB Female para Micro USB;
+ - 01 Cabo USB Male para Micro USB (Cabo para carregar celular);
+ - 01 Case para o Arduino (Opcional)
+ -  -- Computador com acesso a IDE Arduino.
  <br>
  
+ <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As imagens de cada item, respectivamente, são encontradas abaixo, previamente juntas de uma breve descrição de suas funções.</p>
+ <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O Arduino Pro Micro foi selecionado para esse caso, devido a uma série de razões: tamanho compacto; entrada Micro USB; bibliotecas compatíveis; baxo valor; fácil importação; dentre outros.</p>
+ 
 
-<div align="center"><h1>Resultado</h1></div>
+<p align=center>Figura 3 - Arduino Pro Micro(Modelo Utilizado)</p>
+<div align="center"> <img src="https://www.arduino-board.com/images/thumbs/dr-pro-micro.jpg
+"></div>
+<p align=center>Fonte: Arduino Board (2018)</p>
+<br>
+
+ <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O Adaptador pode ser usado em diversas ocasiões, já que ele converte a entrada Micro USB presente no Arduino Pro Micro, tanto para um USB Male, habilitando o memso ser usado como um pendrive regular no computador. Ou serve de USB Female, para ser conectado ao adaptador OTG, e or sua vez, ser conectado em algum outro dispositivo via Micro USB, atuando como Micro USB - Micro USB.</p>
+<p align=center>Figura 4 -Adaptador USB Male/Female para Micro USB</p>
+<div align="center"> <img height="300" width="300" src="https://ae01.alicdn.com/kf/HTB1ibkyLVXXXXaAXpXXq6xXFXXXp/220863469/HTB1ibkyLVXXXXaAXpXXq6xXFXXXp.jpg?size=87602&height=1000&width=100&hash=fbe7b473c64b0712a0067396cf52985d
+"></div>
+<p align=center>Fonte: Autor (2018)</p>
+<br>
+
+ <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Os adaptadore OTG já são amplamente utilizados em conjunto com celulares Android e outros dispositivos USB. Uma grande variedade de combinações podem ser utilizadas, como por exemplo, utilizar um mouse ou um teclado no celular.</p>
+ <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;Nesse caso, ele foi usado em conjunto com o adaptador citado acima, para que a entrada Female Micro USB do Arduino Pro Micro se tornasse um Male Micro USB. Dessa maneira, utilizando o Arduino Pro Micro diretamente em um dispositivo com conexão Micro USB, como um celular, por exemplo.</p>
+<p align=center>Figura 5 - OTG - USB Female para Micro USB</p>
+<div align="center"> <img height="300" width="300" src="https://http2.mlstatic.com/adaptador-otg-usb-20-femea-x-micro-usb-v8-macho-D_NQ_NP_456311-MLB20544240913_012016-F.jpg
+"></div>
+<p align=center>Fonte: Autor (2018)</p>
+<br>
+
+ <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;O cabo tem exatamente a mesma função do adaptador OTG. Todavia, ele acaba garantindo uma extensão caso necessário.</p>
+<p align=center>Figura 6 - Cabo USB Male para Micro USB</p>
+<div align="center"> <img height="300" width="300" src="http://mlb-s1-p.mlstatic.com/cabo-para-celular-v8-east-gate-carrega-3x-mais-rapido-1m-top-547511-MLB20583688259_022016-F.jpg
+"></div>
+<p align=center>Fonte: Autor (2018)</p>
+<br>
+
+ <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;Para fins estéticos, e de proteção, é interessante o uso de um case. Podendo ser de um Pendrive antigo, ou até mesmo impresso com uso de impressoras 3D.</p>
+<p align=center>Figura 7 - Case para o Arduino</p>
+<div align="center"> <img src="http://i.imgur.com/6F054UT.png
+"></div>
+<p align=center>Fonte: Michal Monday
+(2018)</p>
+<br>
+
+
 <p>
+<div align="center"><h1>Resultado</h1></div>
 ✔✖,
 </p>
 
