@@ -5,7 +5,7 @@
  - **Introdução**
  - **Desenvolvimento**
  - **Resultado**
-
+ - **Conclusão**
 <div align="center"><h1>Introdução</h1></div>
 
 <p> <strong> O que é um Rubber Ducky?</strong> </p>
@@ -208,4 +208,13 @@
  - [✔] Fácil acesso de compra ao dispositivo.
 <p align="justify">&emsp;&emsp;&emsp;O dispositivo e os itens necessários podem ser todos comprados online, em lojas da china, ou também em território brasileiro.  </p>
 
-----------
+<div align="center"><h1>Conclusão</h1></div>
+<p align="justify">&emsp;&emsp;&emsp;Como o esperado, o RubberDucky é uma ferramenta mais completa, isso devido a seu armazenamento Micro USB. Porém, acaba se tornando praticamente inviável a compra do dispositivo no Brasil, devido a seu elevado preço e diversas dificuldades enfrentadas em determinados tipos de exportações de eletrônicos.</p>
+<p align="justify">&emsp;&emsp;&emsp;Concluí-se que, dentro das necessidades apresentadas, o ArduinoDucky consegue atender muito bem os requisitos apresentados, sendo uma ferramenta extremamente útil para realização de testes rápidos e automatização de tarefas longas, tudo isso via payloads pré-construidos.</p>
+
+<div align="center"><h1>Payloads</h1></div>
+<p align="justify">&emsp;&emsp;&emsp;Além dos payloads que foram citados e disponibilizados no decorrer do texto, deixo aqui alguns que foram criados e convertidos por mim usando algumas da ferramentas citadas.</p>
+<p align="justify">&emsp;&emsp;&emsp;Todos os arquivos (.ino) para o ArduinoDucky podem ser encontrados no repositório. Abaixo, uma lista de referências e uma explicação de sua função. </p>
+<p align="justify">.</p>
+<p align="justify">.</p>
+<p align="justify">.</p>
