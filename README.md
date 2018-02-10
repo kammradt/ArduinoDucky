@@ -174,8 +174,8 @@
     }
     
     void loop() {}
-<p align="justify">&emsp;&emsp;&emsp;Além das ferramentas disponibilizadas para a conversão do código RubberDucky para ArduinoDucky, já existem muitos e muitos payloads prontos para o próprio RubberDucky. Sendo que tais, podem ser convertidos facilmente para o uso no ArduinoDucky, ou servirem de exemplos para a criação de payloads próprios e novos.</p>
-<p align="justify">&emsp;&emsp;&emsp;Seguem abaixo, alguns sites que contam com repositórios de payloads prontos. Grande parte deles são desenvolvidos pela própria comunidade e divulgados na internet, outros foram desenvolvidos inicialmente para demonstrar o funcionamento no RubberDucky. </p>
+<p align="justify">&emsp;&emsp;&emsp;Além das ferramentas disponibilizadas para a conversão do código Rubber Ducky para ArduinoDucky, já existem muitos e muitos payloads prontos para o próprio Rubber Ducky. Sendo que tais, podem ser convertidos facilmente para o uso no ArduinoDucky, ou servirem de exemplos para a criação de payloads próprios e novos.</p>
+<p align="justify">&emsp;&emsp;&emsp;Seguem abaixo, alguns sites que contam com repositórios de payloads prontos. Grande parte deles são desenvolvidos pela própria comunidade e divulgados na internet, outros foram desenvolvidos inicialmente para demonstrar o funcionamento no Rubber Ducky. </p>
 <p align="justify">&emsp;&emsp;&emsp;Links:</p>
 
  - github.com/hak5darren/USB-Rubber-Ducky/wiki/Payloads
@@ -185,7 +185,7 @@
 <br>
 
 <p align="justify">&emsp;&emsp;&emsp;<strong>Conclusão baseado nas expectativas:</strong></p>
-<p align="justify">&emsp;&emsp;&emsp;Chegando ao fim do projeto, é o momento de analisar quais foram as expectativas e objetivos alcançados durante a sua execução. Foram listadas, anteriormente, alguns tópicos contendo as características julgadas ideais para o funcionamento pleno da alternativa ao RubberDucky.  </p>
+<p align="justify">&emsp;&emsp;&emsp;Chegando ao fim do projeto, é o momento de analisar quais foram as expectativas e objetivos alcançados durante a sua execução. Foram listadas, anteriormente, alguns tópicos contendo as características julgadas ideais para o funcionamento pleno da alternativa ao Rubber Ducky.  </p>
 <p align="justify">&emsp;&emsp;&emsp;Nesse contexto, os resultados obtidos foram:  </p>
 
  - [✔] Executar comandos via HID;
@@ -198,19 +198,19 @@
 <p align="justify">&emsp;&emsp;&emsp;O projeto, quando revestido por algum plástico ou case, se passa por um Pendrive USB facilmente.  </p>
 
  - [✖] Possuir armazenamento suficiente para  diversos scripts/payloads/arquivos em geral;
-<p align="justify">&emsp;&emsp;&emsp;Utilizando os recursos disponíveis, e tendo em foco a facilidade e praticidade, o Arduino escolhido não possui tanta memória quanto o RubberDucky, já que este conta com espaço para cartão Micro SD. Existem opções para acoplar um adaptador no Arduino Pro Micro, assim, expandindo sua memória, mas não foi o caso neste projeto.  </p>
+<p align="justify">&emsp;&emsp;&emsp;Utilizando os recursos disponíveis, e tendo em foco a facilidade e praticidade, o Arduino escolhido não possui tanta memória quanto o Rubber Ducky, já que este conta com espaço para cartão Micro SD. Existem opções para acoplar um adaptador no Arduino Pro Micro, assim, expandindo sua memória, mas não foi o caso neste projeto.  </p>
 
  - [✔✖] Linguagem com sintaxe simples;
-<p align="justify">&emsp;&emsp;&emsp;A linguagem para uso próprio no ArduinoDucky é mais complexa que a utilizada orginalmente no RubberDucky. Todavia, existem vários payloads prontos e conversores para facilitar a vida do usuário.  </p>
+<p align="justify">&emsp;&emsp;&emsp;A linguagem para uso próprio no ArduinoDucky é mais complexa que a utilizada orginalmente no Rubber Ducky. Todavia, existem vários payloads prontos e conversores para facilitar a vida do usuário.  </p>
 
  - [✔] Custo reduzido;
-<p align="justify">&emsp;&emsp;&emsp;O custo total não ultrapassa os 5 dólares. O RubberDucky é vendido na loja oficial da Hak5 por 44.99 dólares. O custo é muito mais acessível, além de todos os itens poderem ser adquiridos via importações da china, ou em território brasileiro, diferente do caso de efetuar a compra do RubberDucky. </p>
+<p align="justify">&emsp;&emsp;&emsp;O custo total não ultrapassa os 5 dólares. O Rubber Ducky é vendido na loja oficial da Hak5 por 44.99 dólares. O custo é muito mais acessível, além de todos os itens poderem ser adquiridos via importações da china, ou em território brasileiro, diferente do caso de efetuar a compra do Rubber Ducky. </p>
 
  - [✔] Fácil acesso de compra ao dispositivo.
 <p align="justify">&emsp;&emsp;&emsp;O dispositivo e os itens necessários podem ser todos comprados online, em lojas da china, ou também em território brasileiro.  </p>
 
 <div align="center"><h1>Conclusão</h1></div>
-<p align="justify">&emsp;&emsp;&emsp;Como o esperado, o RubberDucky é uma ferramenta mais completa, isso devido a seu armazenamento Micro USB. Porém, acaba se tornando praticamente inviável a compra do dispositivo no Brasil, devido a seu elevado preço e diversas dificuldades enfrentadas em determinados tipos de exportações de eletrônicos.</p>
+<p align="justify">&emsp;&emsp;&emsp;Como o esperado, o Rubber Ducky é uma ferramenta mais completa, isso devido a seu armazenamento Micro USB. Porém, acaba se tornando praticamente inviável a compra do dispositivo no Brasil, devido a seu elevado preço e diversas dificuldades enfrentadas em determinados tipos de exportações de eletrônicos.</p>
 <p align="justify">&emsp;&emsp;&emsp;Concluí-se que, dentro das necessidades apresentadas, o ArduinoDucky consegue atender muito bem os requisitos apresentados, sendo uma ferramenta extremamente útil para realização de testes rápidos e automatização de tarefas longas, tudo isso via payloads pré-construidos.</p>
 
 <div align="center"><h1>Payloads</h1></div>
