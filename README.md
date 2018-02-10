@@ -99,10 +99,17 @@
 (2018)</p>
 <br>
 
+ <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;Para fazer todo o carregamento do script/payload no Arduino Pro Micro, independente da conexão e/ou adaptador, a IDE disponibilizada pelo próprio Arduino é essencial.</p>
+<p align=center>Figura 8 - Computador com acesso a IDE Arduino</p>
+<div align="center"> <img src="https://blog.arduino.cc/wp-content/uploads/2016/03/before.png"></div>
+<p align=center>Fonte: Arduino CC (2018)</p>
+<br>
+
+ <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;Em relação, especificamente aos scripts/payloads e sua sintaxe/linguagem, no tópico final será explicado de maneira detalhada seu funcionamento. </p>
 
 <p>
 <div align="center"><h1>Resultado</h1></div>
-✔✖,
+✔✖
 </p>
 
 ----------
