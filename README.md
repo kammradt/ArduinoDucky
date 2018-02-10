@@ -2,7 +2,7 @@
 <div align="center"><h1>ArduinoDucky</h1></div>
 <div align="center"><h1>Sumário</h1></div>
 
- - **IntroduçãoAAAAAAAAAAAA**
+ - **Introdução**
  - **Desenvolvimento**
  - **Resultado**
 
