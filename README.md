@@ -107,9 +107,105 @@
 
  <p align=justify>&emsp;&emsp;&emsp;Em relação, especificamente aos scripts/payloads e sua sintaxe/linguagem, no tópico final será explicado de maneira detalhada seu funcionamento. </p>
 
-<p>
+
 <div align="center"><h1>Resultado</h1></div>
-✔✖
-</p>
+<p align="justify">&emsp;&emsp;&emsp;Os resultados, buscando uma explicação didática e sequencial, foram divididos em: <strong>Código e Sintaxe</strong>; <strong>Exemplo</strong>; <strong>Conclusão baseado nas expectativas</strong>. </p>
+<br>
+
+<p align="justify">&emsp;&emsp;&emsp;<strong>Código e Sintaxe:</strong></p>
+<p align="justify">&emsp;&emsp;&emsp;Para o funcionamento e execução dos comandos via HID, o ArduinoDucky precisa ser programado previamente. O Rubber Ducky, orignalmente, utiliza uma sintaxe simples, que é chamado propriamente de RubberScript, porém, os processadores do deste, e do ArduinoDucky são diferentes, logo, algumas modificações precisam ser feitas, para que o nosso projeto consiga executar os mesmos comandos. </p>
+<p align="justify">&emsp;&emsp;&emsp;Nesse caso, a IDE do próprio arduino será nosso começo. Não será possível utilizar exatamente a mesma sintaxe RubberScript. Em contrapartida, é extremamente simples efetuar a conversão do RubberScript original para o aceito via Arduino, utilizando ferramentas para tal, ou já escrevendo o código via linguagem do Arduino nativamente.</p>
+
+<p align="justify">&emsp;&emsp;&emsp;Existem alguns sites que efetuam tal conversão, como os citados abaixo:</p>
+
+ - seytonic.com/ducky
+ - roothaxor.gitlab.io/ducky2arduino
+ - Dentre outros sites conversores de script/payload
+
+<br>
+
+<p align="justify">&emsp;&emsp;&emsp;<strong>Exemplo:</strong></p>
+<p align="justify">&emsp;&emsp;&emsp;Para que fique claro o funcionamento, será mostrado a seguir um exemplo de código originalmente escrito em RubberScript, e outro já convertido para o funcionamento pleno em uma plataforma Arduino.</p>
+<p align="justify">&emsp;&emsp;&emsp;Nota-se, claramente, que a escrita fica maior e com maior memória. Todavia, a conversão já é efetuada por ferramentas prontas, o que facilita muito o usuário. A questão da memória será comentada posteriormente.</p>
+<p align="justify">&emsp;&emsp;&emsp;Seguem os exemplos abaixo.</p>
+<p align="justify">&emsp;&emsp;&emsp;RubberScript:</p>
+
+    GUI r
+    DELAY 500
+    STRING notepad
+    DELAY 500
+    ENTER
+    DELAY 750
+    STRING Escrita em notepad via RubberScript
+    ENTER
+
+<p align="justify">&emsp;&emsp;&emsp;ArduinoDucky (com conversão):</p>
+
+    #include "Keyboard.h"
+    
+    void typeKey(int key)
+    {
+      Keyboard.press(key);
+      delay(50);
+      Keyboard.release(key);
+    }
+    
+    void setup()
+    {
+      Keyboard.begin();
+      delay(500);
+    
+      Keyboard.press(KEY_LEFT_GUI);
+      Keyboard.press('r');
+      Keyboard.releaseAll();
+    
+      delay(500);
+      Keyboard.print("notepad");
+    
+      delay(500);
+      typeKey(KEY_RETURN);
+    
+      delay(750);
+      Keyboard.print("Escrita em notepad via ArduinoDucky");
+      typeKey(KEY_RETURN);
+    
+      Keyboard.end();
+    }
+    
+    void loop() {}
+<p align="justify">&emsp;&emsp;&emsp;Além das ferramentas disponibilizadas para a conversão do código RubberDucky para ArduinoDucky, já existem muitos e muitos payloads prontos para o próprio RubberDucky. Sendo que tais, podem ser convertidos facilmente para o uso no ArduinoDucky, ou servirem de exemplos para a criação de payloads próprios e novos.</p>
+<p align="justify">&emsp;&emsp;&emsp;Seguem abaixo, alguns sites que contam com repositórios de payloads prontos. Grande parte deles são desenvolvidos pela própria comunidade e divulgados na internet, outros foram desenvolvidos inicialmente para demonstrar o funcionamento no RubberDucky. </p>
+<p align="justify">&emsp;&emsp;&emsp;Links:</p>
+
+ - github.com/hak5darren/USB-Rubber-Ducky/wiki/Payloads
+ - ducktoolkit.com/
+ - thehacktoday.com/60-best-rubber-ducky-usb-payloads/
+
+<br>
+
+<p align="justify">&emsp;&emsp;&emsp;<strong>Conclusão baseado nas expectativas:</strong></p>
+<p align="justify">&emsp;&emsp;&emsp;Chegando ao fim do projeto, é o momento de analisar quais foram as expectativas e objetivos alcançados durante a sua execução. Foram listadas, anteriormente, alguns tópicos contendo as características julgadas ideais para o funcionamento pleno da alternativa ao RubberDucky.  </p>
+<p align="justify">&emsp;&emsp;&emsp;Nesse contexto, os resultados obtidos foram:  </p>
+
+ - [✔] Executar comandos via HID;
+  <p align="justify">&emsp;&emsp;&emsp;O projeto foi perfeitamente capaz de executar os comandos via HID.  </p>
+
+ - [✔] Fácil/level/discreto para testes;
+<p align="justify">&emsp;&emsp;&emsp;O projeto tem é de fácil manejo, leve, e discreto para uso.  </p>
+
+ - [✔] Aparência semelhante a de um Pendrive USB;
+<p align="justify">&emsp;&emsp;&emsp;O projeto, quando revestido por algum plástico ou case, se passa por um Pendrive USB facilmente.  </p>
+
+ - [✖] Possuir armazenamento suficiente para  diversos scripts/payloads/arquivos em geral;
+<p align="justify">&emsp;&emsp;&emsp;Utilizando os recursos disponíveis, e tendo em foco a facilidade e praticidade, o Arduino escolhido não possui tanta memória quanto o RubberDucky, já que este conta com espaço para cartão Micro SD. Existem opções para acoplar um adaptador no Arduino Pro Micro, assim, expandindo sua memória, mas não foi o caso neste projeto.  </p>
+
+ - [✔✖] Linguagem com sintaxe simples;
+<p align="justify">&emsp;&emsp;&emsp;A linguagem para uso próprio no ArduinoDucky é mais complexa que a utilizada orginalmente no RubberDucky. Todavia, existem vários payloads prontos e conversores para facilitar a vida do usuário.  </p>
+
+ - [✔] Custo reduzido;
+<p align="justify">&emsp;&emsp;&emsp;O custo total não ultrapassa os 5 dólares. O RubberDucky é vendido na loja oficial da Hak5 por 44.99 dólares. O custo é muito mais acessível, além de todos os itens poderem ser adquiridos via importações da china, ou em território brasileiro, diferente do caso de efetuar a compra do RubberDucky. </p>
+
+ - [✔] Fácil acesso de compra ao dispositivo.
+<p align="justify">&emsp;&emsp;&emsp;O dispositivo e os itens necessários podem ser todos comprados online, em lojas da china, ou também em território brasileiro.  </p>
 
 ----------
