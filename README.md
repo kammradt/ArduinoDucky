@@ -61,7 +61,7 @@
  - 01 OTG - USB Female para Micro USB;
  - 01 Cabo USB Male para Micro USB (Cabo para carregar celular);
  - 01 Case para o Arduino (Opcional)
- -  ---  Computador com acesso a IDE Arduino.
+ - &emsp;Computador com acesso a IDE Arduino.
  <br>
  
  <p align=justify>&emsp;&emsp;&emsp;As imagens de cada item, respectivamente, são encontradas abaixo, previamente juntas de uma breve descrição de suas funções.</p>
