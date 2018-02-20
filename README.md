@@ -216,6 +216,18 @@
 <div align="center"><h1>Payloads</h1></div>
 <p align="justify">&emsp;&emsp;&emsp;Além dos payloads que foram citados e disponibilizados no decorrer do texto, deixo aqui alguns que foram criados e convertidos por mim usando algumas da ferramentas citadas.</p>
 <p align="justify">&emsp;&emsp;&emsp;Todos os arquivos (.ino) para o ArduinoDucky podem ser encontrados no repositório. Abaixo, uma lista de referências e uma explicação de sua função. </p>
-<p align="justify">.</p>
-<p align="justify">.</p>
-<p align="justify">.</p>
+<p align="justify">&emsp;&emsp;&emsp;<strong>FloodEnumerado:</strong></p>
+<p align="justify">&emsp;&emsp;&emsp;O payload tem a função de enviar via HID uma série de mensagens continuas, que são seguidas de um número que representa em qual mensagem o programa já chegou. Segue exemplo de resultado da conexão do ArduinoDucky em um dispositivo que aceite HID:</p>
+
+    Mensagem - 1
+    Mensagem - 2
+    Mensagem - 3
+    Mensagem - 4
+    Mensagem - 5
+    Mensagem - 6
+    Mensagem - 7
+    Mensagem - 8
+    Mensagem - 9
+    Mensagem - 10
+ 
+    
