@@ -1,4 +1,5 @@
 
+
 <div align="center"><h1>ArduinoDucky</h1></div>
 <div align="center"><h1>Sumário</h1></div>
 
@@ -216,6 +217,7 @@
 <div align="center"><h1>Payloads</h1></div>
 <p align="justify">&emsp;&emsp;&emsp;Além dos payloads que foram citados e disponibilizados no decorrer do texto, deixo aqui alguns que foram criados e convertidos por mim usando algumas da ferramentas citadas.</p>
 <p align="justify">&emsp;&emsp;&emsp;Todos os arquivos (.ino) para o ArduinoDucky podem ser encontrados no repositório. Abaixo, uma lista de referências e uma explicação de sua função. </p>
+
 <p align="justify">&emsp;&emsp;&emsp;<strong>FloodEnumerado:</strong></p>
 <p align="justify">&emsp;&emsp;&emsp;O payload tem a função de enviar via HID uma série de mensagens continuas, que são seguidas de um número que representa em qual mensagem o programa já chegou. Segue exemplo de resultado da conexão do ArduinoDucky em um dispositivo que aceite HID:</p>
 
@@ -231,3 +233,5 @@
     Mensagem - 10
  
     
+<p align="justify">&emsp;&emsp;&emsp;<strong>EnviarTweet:</strong></p>
+<p align="justify">&emsp;&emsp;&emsp;O payload tem a função de enviar via HID uma série de mensagens no Twitter, que são seguidas de um número que representa em qual mensagem o programa já chegou. Para que funcione, a página inicial do Twitter precisa estar aberta em algum navegador ou app. Utilizando dos próprios atalhos, as mensagens serão enviadas no intervalo definido.</p>
