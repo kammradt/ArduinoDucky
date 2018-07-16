@@ -245,7 +245,11 @@ A mensagem contém duas linhas de valores fixos, e ao fim da segundo linha, um v
     Minha segunda linha, quantidade de mensagens > ? 'CTRL ENTER'
 
 > [Pressionar 'n' no teclado irá abrir uma janela "Novo Tweet"] 
+
 > [Irá escrever o texto na janela e dar ENTER para pular linha"]
+
 > [Irá escrever o texto na próxima linha]
+
 > [? será substituído pela variável contadora de mensagens]
+
 > [Após a mensar ser escritar, será pressionar CTRL ENTER, que é o atalho respectivo para enviar um novo Tweet]
