@@ -1,4 +1,5 @@
 
+  
 
 <div align="center"><h1>ArduinoDucky</h1></div>
 <div align="center"><h1>Sumário</h1></div>
@@ -234,4 +235,17 @@
  
     
 <p align="justify">&emsp;&emsp;&emsp;<strong>EnviarTweet:</strong></p>
-<p align="justify">&emsp;&emsp;&emsp;O payload tem a função de enviar via HID uma série de mensagens no Twitter, que são seguidas de um número que representa em qual mensagem o programa já chegou. Para que funcione, a página inicial do Twitter precisa estar aberta em algum navegador ou app. Utilizando dos próprios atalhos, as mensagens serão enviadas no intervalo definido.</p>
+<p align="justify">&emsp;&emsp;&emsp;O payload tem a função de enviar via HID uma série de mensagens no Twitter, que são seguidas de um número que representa em qual mensagem o programa já chegou. 
+A mensagem contém duas linhas de valores fixos, e ao fim da segundo linha, um valor que represente a quantidade de mensagens enviadas.</p>
+<p align="justify">&emsp;&emsp;&emsp;Para que funcione, a página inicial do Twitter precisa estar aberta em algum navegador ou app. Utilizando dos próprios atalhos, as mensagens serão enviadas no intervalo de tempo definido.</p>
+<p align="justify">&emsp;&emsp;&emsp;Um exemplo de execução segue:</p>
+
+    'n'
+    Minha primeira linha 'ENTER'
+    Minha segunda linha, quantidade de mensagens > ? 'CTRL ENTER'
+
+> [Pressionar 'n' no teclado irá abrir uma janela "Novo Tweet"]
+> [Irá escrever o texto na janela e dar ENTER para pular linha"]
+> [Irá escrever o texto na próxima linha]
+> [? será substituído pela variável contadora de mensagens]
+> [Após a mensar ser escritar, será pressionar CTRL ENTER, que é o atalho respectivo para enviar um novo Tweet]
